@@ -1,6 +1,6 @@
-require "filterable/version"
+require "filterable_model/version"
 
-module Filterable
+module FilterableModel
   class Error < StandardError; end
   class FilterNotSupported < Error; end
 

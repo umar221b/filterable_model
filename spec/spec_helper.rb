@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "filterable"
+require "filterable_model"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
