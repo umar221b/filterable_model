@@ -1,3 +1,3 @@
-module Filterable
+module FilterableModel
   VERSION = "0.1.0"
 end

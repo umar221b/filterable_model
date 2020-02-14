@@ -1,13 +1,13 @@
-# Filterable
+# FilterableModel
 
-Filterable provides an organized and seamless way to filter your ActiveRecord objects using real and custom attributes.
+FilterableModel provides an organized and seamless way to filter your ActiveRecord objects using real and custom attributes.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'filterable', '~> 0.1.0'
+gem 'filterable_model', '~> 0.1.0'
 ```
 
 And then execute:
@@ -16,15 +16,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install filterable
+    $ gem install filterable_model
 
 ## Usage
 
-Include Filterable inside ApplicationRecord or directly inside your ActiveRecord model:
+Include FilterableModel inside ApplicationRecord or directly inside your ActiveRecord model:
 
 ```ruby
 class User < ApplicationRecord
-  include Filterable
+  include FilterableModel
 end
 ```
 
@@ -34,7 +34,7 @@ To filter using the exact values of your ActiveRecord model attributes, override
 
 ```ruby
 class User < ApplicationRecord
-  include Filterable
+  include FilterableModel
 
   concerning :Filtering do
     class_methods do
@@ -55,7 +55,7 @@ Filtering using custom attributes works by calling the add_filter method and pas
 
 ```ruby
 class User < ApplicationRecord
-  include Filterable
+  include FilterableModel
 
   concerning :Filtering do
     included do
@@ -97,7 +97,7 @@ Passing an unknown filter will raise a `FilterNotSupported` error.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/umar221b/filterable.
+Bug reports and pull requests are welcome on GitHub at https://github.com/umar221b/filterable_model.
 
 ## License
 

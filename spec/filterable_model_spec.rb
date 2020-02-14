@@ -1,6 +1,6 @@
-RSpec.describe Filterable do
+RSpec.describe FilterableModel do
   it "has a version number" do
-    expect(Filterable::VERSION).not_to be nil
+    expect(FilterableModel::VERSION).not_to be nil
   end
 
   # it "does something useful" do

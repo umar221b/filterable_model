@@ -1,16 +1,16 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "filterable/version"
+require "filterable_model/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "filterable"
-  spec.version       = Filterable::VERSION
+  spec.name          = "filterable_model"
+  spec.version       = FilterableModel::VERSION
   spec.authors       = ["Umar Al-Kfaween"]
   spec.email         = ["omar.ka923@gmail.com"]
 
-  spec.summary       = %q{Filterable provides an organized and seamless way to filter your ActiveRecord objects using model attributes or custom attributes.}
-  spec.description   = %q{Filterable provides an organized and seamless way to filter your ActiveRecord objects using model attributes or custom attributes.}
-  spec.homepage      = "https://github.com/umar221b/filterable"
+  spec.summary       = %q{FilterableModel provides an organized and seamless way to filter your ActiveRecord objects using model attributes or custom attributes.}
+  spec.description   = %q{FilterableModel provides an organized and seamless way to filter your ActiveRecord objects using model attributes or custom attributes.}
+  spec.homepage      = "https://github.com/umar221b/filterable_model"
   spec.license       = "MIT"
 
   spec.required_ruby_version = '>= 2.2.2'
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/umar221b/filterable"
+  spec.metadata["source_code_uri"] = "https://github.com/umar221b/filterable_model"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
